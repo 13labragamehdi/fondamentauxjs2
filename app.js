@@ -8,11 +8,11 @@ for(let index = 0;index<numberOfNames;index++) {
 }
 
 if(numberOfNames>3){
-    let retour =`vous avez enregristré ${numberOfNames} qui sont: ${list} C'est beaucoups de noms!; `;
+    let retour =`vous avez enregristré ${numberOfNames}  noms qui sont: ${list} C'est beaucoups de noms!; `;
     console.log(retour)
 }
 else {
-    let retour = `vous avez enregistré ${numberOfNames} qui sont: ${list}`;
+    let retour = `vous avez enregistré ${numberOfNames} noms qui sont: ${list}`;
     console.log(retour)
 };
 
